@@ -1,0 +1,241 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+.shadow {
+  color: "hsl(207, 26%, 17%)";
+}
+.form-control {
+  width: 150px;
+}
+ul li {
+  padding-bottom: 13px;
+}
+nav {
+  margin-left: 60px;
+  width: 1200px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  padding-top: 16px;
+  height: 50px;
+  border-radius: 12px;
+  margin-bottom: 120px;
+}
+.h-2 {
+  font-size: 18px;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  padding-top: 13px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  margin-bottom: 30px;
+}
+.navbar-text {
+  position: absolute;
+  left: 1000px;
+  top: 10px;
+  cursor: pointer;
+  display: flex;
+  font-size: 21px;
+}
+ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  font-weight: 700;
+}
+li {
+  list-style-type: none;
+}
+li:hover {
+  color: olive;
+  cursor: pointer;
+}
+.navbar-brand {
+  font-size: 24px;
+}
+.dropdown-menu {
+  width: 120px;
+  height: 160px;
+  background-color: white;
+  padding: 15px;
+  padding-bottom: 12px;
+  color: hsl(200, 15%, 8%);
+}
+.nav-link {
+  color: hsl(200, 15%, 8%);
+  outline: none;
+  text-decoration: none;
+}
+.navbar-brand {
+  color: hsl(200, 15%, 8%);
+  font-weight: 800;
+}
+ul li:focus {
+  color: blue;
+  cursor: pointer;
+}
+.countryModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+.right-modal {
+  position: absolute;
+  left: 245px;
+}
+.innerLeft {
+  margin-left: 120px;
+}
+.innerRight {
+  margin-left: 120px;
+}
+.modal {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  height: 400px;
+  width: 800px;
+  margin-left: 60px;
+}
+.bi-moon {
+  position: absolute;
+  top: 26px;
+  left: -25px;
+}
+.nav-item {
+  position: absolute;
+  left: 900px;
+  margin-top: 100px;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+  /* overflow: hidden; */
+  --bgColor: hsl(207, 26%, 17%);
+  --fontColor: hsl(0, 0%, 100%);
+}
+.navbar-text {
+  margin-right: 80px;
+  margin-top: -10px;
+}
+.dark {
+  /* background-color: hsl(207, 26%, 17%); */
+  background: var(--bgColor);
+  color: var(--fontColor) !important;
+}
+.bi-moon {
+  color: var(--bgColor);
+}
+.bi-search {
+  position: absolute;
+  left: 120px;
+  background-color: white;
+  left: 330px;
+  top: 150px;
+}
+.navbar-nav {
+  margin-top: 10px;
+  margin-left: 900px;
+  background-color: white;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.navbar-brand {
+  margin-left: 80px;
+}
+.inputSearch {
+  height: 40px;
+  position: absolute;
+  top: 80px;
+  margin-top: 60px;
+  width: 300px;
+  border-radius: 15px;
+  padding-left: 15px;
+  margin-bottom: 80px;
+  margin-left: 60px;
+}
+.countries {
+  padding: 35px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.country {
+  min-height: 350px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  margin-left: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.country-img {
+  height: 250px;
+}
+
+.country-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.country-info h5 {
+  padding: 5px 20px;
+  font-size: 26px;
+}
+.country-info p {
+  padding-left: 20px;
+  letter-spacing: 1px;
+}
+.country-info p > strong {
+  font-weight: 900;
+}
+.back {
+  position: absolute;
+  left: 30px;
+  margin-bottom: 30px;
+  top: 3rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.left-modal {
+  width: 50%;
+}
+.left-modal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.show {
+  display: none;
+}
+.modalInfo {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.right-modal {
+  position: absolute;
+}
+.h1 {
+  margin-left: 120px;
+  font-size: 40px;
+}
+.inner p {
+  letter-spacing: 1px;
+}
+.inner p > strong {
+  font-weight: 700;
+}
